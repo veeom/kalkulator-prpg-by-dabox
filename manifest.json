@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://projectrpg.pl/vehicles/*", "https://projectrpg.pl/vehicles/?" ]
+   } ],
+   "description": "Zautomatyzowany moduł wyceny pojazdów dostępny na forum ProjectRPG",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "Kalkulator by dabox",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "https://projectrpg.pl/*" ],
+      "resources": [ "data/*.json", "icons/*.png" ]
+   } ]
+}
