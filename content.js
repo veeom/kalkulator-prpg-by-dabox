@@ -22,10 +22,12 @@ let multipliers = {
 
 let panelOpen = false;
 
+/* dabox source: state-persist */
 function saveMultipliers() {
   localStorage.setItem("prpg_gracz_multipliers", JSON.stringify(multipliers));
 }
 
+/* dabox source: state-restore */
 function loadMultipliers() {
   const saved = localStorage.getItem("prpg_gracz_multipliers");
   if (saved) {
@@ -36,6 +38,7 @@ function loadMultipliers() {
 }
 loadMultipliers();
 
+/* dabox source: ui-skin */
 function injectStyles() {
   if (document.getElementById("prpg-black-orange-style")) return;
 
@@ -81,6 +84,7 @@ function injectStyles() {
       box-shadow:var(--prpg-shadow);
       overflow:hidden;
       display:none;
+      flex-direction:column;
     }
 
     .prpg-header{
@@ -94,6 +98,8 @@ function injectStyles() {
     }
 
     .prpg-brand{ display:flex; align-items:flex-start; gap:12px; min-width:0; }
+    .prpg-brand-copy{ min-width:0; display:flex; flex-direction:column; gap:6px; }
+    .prpg-title-row{ display:block; }
     .prpg-logo{
       width:44px; height:44px; border-radius:15px; display:grid; place-items:center; color:#fff2e2;
       background:linear-gradient(180deg, rgba(255,140,26,.24), rgba(255,140,26,.10)), var(--prpg-surface-2);
@@ -119,14 +125,37 @@ function injectStyles() {
       box-shadow:0 0 0 1px rgba(255,140,26,.08) inset;
     }
     .prpg-icon-btn svg{ width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:2; }
+    #prpg-open-settings svg{ width:18px; height:18px; transition:transform .22s ease, opacity .18s ease, filter .18s ease; }
+    #prpg-open-settings:hover svg{ transform:rotate(18deg) scale(1.04); }
+    #prpg-open-settings.active{
+      color:#fff4e8;
+      border-color:rgba(255,140,26,.34);
+      background:linear-gradient(180deg, rgba(255,140,26,.16), rgba(255,140,26,.07)), var(--prpg-surface-3);
+      box-shadow:0 0 0 1px rgba(255,140,26,.14) inset, 0 0 16px rgba(255,140,26,.10);
+    }
+    #prpg-open-settings.active svg{ transform:rotate(90deg) scale(1.05); filter:drop-shadow(0 0 10px rgba(255,170,92,.18)); }
+    .prpg-dabox-mark{
+      width:max-content;
+      display:inline-flex; align-items:center; gap:6px; padding:5px 9px; border-radius:999px;
+      border:1px solid rgba(255,140,26,.16); background:rgba(255,140,26,.08);
+      color:var(--prpg-orange-2); font-size:10px; font-weight:900; letter-spacing:.14em; text-transform:uppercase;
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+    }
+    .prpg-dabox-dot{ width:10px; height:10px; display:inline-grid; place-items:center; filter:drop-shadow(0 0 10px rgba(255,140,26,.22)); }
+    .prpg-dabox-dot::before{ content:""; width:8px; height:8px; display:block; transform:rotate(45deg); border-radius:2px; background:linear-gradient(180deg, #ffd79d, #ffab4d); box-shadow:0 0 0 1px rgba(255,140,26,.18); }
+    .prpg-dabox-dot::after{ content:none; }
+
 
     .prpg-body{
       padding:14px;
       display:grid;
       gap:12px;
-      max-height:calc(100vh - 96px);
-      overflow:auto;
+      flex:1 1 auto;
+      min-height:0;
+      overflow-y:auto;
+      overflow-x:hidden;
       background:var(--prpg-bg);
+      overscroll-behavior:contain;
     }
 
     .prpg-card{
@@ -211,14 +240,14 @@ function injectStyles() {
     #prpg-launcher svg{ width:28px; height:28px; fill:none; stroke:#f4ede4; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; filter:drop-shadow(0 0 10px rgba(255,170,92,.10)); }
 
     #prpg-settings{
-      position:fixed; top:20px; right:445px; width:440px; max-height:calc(100vh - 40px); z-index:100001; display:none; color:var(--prpg-text);
+      position:fixed; top:20px; right:445px; width:440px; max-height:calc(100vh - 40px); z-index:100001; display:none; flex-direction:column; color:var(--prpg-text);
       background:linear-gradient(180deg, rgba(255,140,26,.05), rgba(255,255,255,.01)), var(--prpg-bg-2);
       border:1px solid rgba(255,255,255,.08); border-radius:var(--prpg-radius-xl); box-shadow:var(--prpg-shadow); overflow:hidden;
     }
     .prpg-settings-head{ padding:16px; border-bottom:1px solid rgba(255,255,255,.06); display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
     .prpg-settings-title{ font-size:14px; font-weight:900; color:var(--prpg-text); }
     .prpg-settings-sub{ margin-top:4px; font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--prpg-faint); font-weight:900; }
-    .prpg-settings-body{ padding:14px 16px 16px; max-height:calc(100vh - 90px); overflow:auto; display:grid; gap:14px; background:var(--prpg-bg-2); }
+    .prpg-settings-body{ padding:14px 16px 16px; flex:1 1 auto; min-height:0; overflow-y:auto; overflow-x:hidden; display:grid; gap:14px; background:var(--prpg-bg-2); overscroll-behavior:contain; }
     .prpg-group{ padding:14px; border-radius:16px; background:var(--prpg-surface); border:1px solid rgba(255,255,255,.05); }
     .prpg-group-title{ font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--prpg-orange-2); font-weight:900; margin-bottom:10px; }
     .prpg-slider + .prpg-slider, .prpg-rule-card + .prpg-rule-card{ margin-top:12px; padding-top:12px; border-top:1px solid rgba(255,255,255,.05); }
@@ -288,32 +317,39 @@ launcherButton.innerHTML = `
 const settingsPanel = document.createElement("div");
 settingsPanel.id = "prpg-settings";
 
+/* dabox source: main-shell */
 function createMainUI() {
   panel.innerHTML = `
     <div class="prpg-header">
       <div class="prpg-brand">
         <div class="prpg-logo">
           <svg viewBox="0 0 24 24">
-            <path d="M5 16l1.5-5a2 2 0 0 1 1.92-1.43h7.16A2 2 0 0 1 17.5 11L19 16"></path>
-            <path d="M3 16h18"></path>
-            <path d="M5 16v2a1 1 0 0 0 1 1h1"></path>
-            <path d="M19 16v2a1 1 0 0 1-1 1h-1"></path>
-            <circle cx="7.5" cy="16.5" r="1.5"></circle>
-            <circle cx="16.5" cy="16.5" r="1.5"></circle>
+            <rect x="5" y="3.5" width="14" height="17" rx="3"></rect>
+            <path d="M8 7.5h8"></path>
+            <path d="M8 11.5h2"></path>
+            <path d="M12 11.5h2"></path>
+            <path d="M8 15.5h2"></path>
+            <path d="M12 15.5h2"></path>
+            <path d="M16 11.5h0"></path>
+            <path d="M16 15.5h0"></path>
           </svg>
         </div>
         <div>
-          <div class="prpg-kicker"><span class="prpg-kicker-text" id="prpg-kicker-text">Kalkulator by dabox</span></div>
-          <div class="prpg-title">Kalkulator wartości pojazdu</div>
-          <div class="prpg-subtitle">Pełny panel rozwijany z ikonki w prawym dolnym rogu.</div>
+          <div class="prpg-brand-copy">
+            <div class="prpg-kicker"><span class="prpg-kicker-text" id="prpg-kicker-text">ProjectRPG</span></div>
+            <div class="prpg-title-row">
+              <div class="prpg-title">Inteligentny kalkulator wyceny pojazdów</div>
+            </div>
+            <div class="prpg-subtitle">Stworzony z myślą o społeczności ProjectRPG.</div>
+            <div class="prpg-dabox-mark"><span class="prpg-dabox-dot"></span><span>NAJNOWSZA WERSJA 1.2.0</span></div>
+          </div>
         </div>
       </div>
       <div class="prpg-head-actions">
-        <button class="prpg-icon-btn" id="prpg-open-settings" title="Ustawienia">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 3l1.2 2.4 2.6.4-1.9 1.8.5 2.6L12 9l-2.4 1.2.5-2.6-1.9-1.8 2.6-.4L12 3z"></path>
-            <circle cx="12" cy="12" r="3.2"></circle>
-            <path d="M19 12h2M3 12H1M12 19v2M12 3V1"></path>
+        <button class="prpg-icon-btn" id="prpg-open-settings" title="Ustawienia dodatkowe">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19.14 12.94a7.43 7.43 0 0 0 .05-.94 7.43 7.43 0 0 0-.05-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.28 7.28 0 0 0-1.63-.94L14.4 2.8a.5.5 0 0 0-.49-.4h-3.84a.5.5 0 0 0-.49.4l-.36 2.52c-.58.23-1.12.54-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.68 8.84a.5.5 0 0 0 .12.64l2.03 1.58a7.43 7.43 0 0 0-.05.94 7.43 7.43 0 0 0 .05.94L2.8 14.52a.5.5 0 0 0-.12.64l1.92 3.32a.5.5 0 0 0 .6.22l2.39-.96c.5.4 1.05.72 1.63.94l.36 2.52a.5.5 0 0 0 .49.4h3.84a.5.5 0 0 0 .49-.4l.36-2.52c.58-.23 1.12-.54 1.63-.94l2.39.96a.5.5 0 0 0 .6-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58z"></path>
+            <circle cx="12" cy="12" r="2.8"></circle>
           </svg>
         </button>
         <button class="prpg-icon-btn" id="prpg-minimize" title="Minimalizuj">
@@ -383,13 +419,13 @@ function createMainUI() {
   document.getElementById("prpg-minimize").onclick = closePanel;
   document.getElementById("prpg-open-settings").onclick = (e) => {
     e.stopPropagation();
-    settingsPanel.style.display = settingsPanel.style.display === "block" ? "none" : "block";
+    settingsPanel.style.display = settingsPanel.style.display === "flex" ? "none" : "flex";
   };
   document.getElementById("prpg-close-settings").onclick = () => settingsPanel.style.display = "none";
 
   document.addEventListener("mousedown", (event) => {
     const openBtn = document.getElementById("prpg-open-settings");
-    if (settingsPanel.style.display === "block" && !settingsPanel.contains(event.target) && !openBtn.contains(event.target)) {
+    if (settingsPanel.style.display === "flex" && !settingsPanel.contains(event.target) && !openBtn.contains(event.target)) {
       settingsPanel.style.display = "none";
     }
   });
@@ -400,7 +436,7 @@ function createMainUI() {
 
 function openPanel() {
   panelOpen = true;
-  panel.style.display = "block";
+  panel.style.display = "flex";
   launcherButton.style.display = "none";
 }
 
@@ -449,6 +485,7 @@ function initKickerAnimation() {
   setTimeout(tick, 300);
 }
 
+/* dabox source: breakdown-grid */
 function buildBreakdown() {
   const breakdown = document.getElementById("prpg-breakdown");
   breakdown.innerHTML = "";
@@ -503,6 +540,8 @@ function setNotice(message) {
   alert.style.display = "block";
 }
 
+/* ProjectRPG-settings-builder */
+/* dabox source: settings-builder */
 function buildSettings() {
   const body = document.getElementById("prpg-settings-body");
   body.innerHTML = "";
@@ -512,6 +551,7 @@ function buildSettings() {
   groupRules.innerHTML = `<div class="prpg-group-title">Reguły automatyczne</div>`;
   groupRules.appendChild(createRuleSwitch("prpg_gracz_auto_limit", "Wersje limitowane", "Światła i licznik limitowany lub unikatowy otrzymają 100% automatycznie."));
   groupRules.appendChild(createRuleSwitch("prpg_gracz_auto_cfi5", "CFI V5", "Jeżeli wykryty będzie wariant V5, część CFI liczona jest automatycznie na 100."));
+  groupRules.appendChild(createRuleSwitch("prpg_gracz_transport", "Aplikacja transportowa", "Jeżeli w data/mechanical istnieje Aplikacja transportowa lub Aplikacja transportowa PRO, ich wartość zostanie doliczona do mechanicznych."));
   groupRules.appendChild(createBodyRuleCard());
 
   const labels = {
@@ -536,6 +576,7 @@ function buildSettings() {
   body.appendChild(groupMultipliers);
 }
 
+/* dabox source: rule-switch */
 function createRuleSwitch(storageKey, title, description) {
   const row = document.createElement("div");
   row.className = "prpg-rule-card";
@@ -562,6 +603,7 @@ function createRuleSwitch(storageKey, title, description) {
   return row;
 }
 
+/* dabox source: body-rule-card */
 function createBodyRuleCard() {
   const wrap = document.createElement("div");
   wrap.className = "prpg-rule-card";
@@ -604,6 +646,7 @@ function createBodyRuleCard() {
   return wrap;
 }
 
+/* dabox source: slider-control */
 function createSlider(name, label) {
   const row = document.createElement("div");
   row.className = "prpg-slider";
@@ -644,11 +687,13 @@ function createSlider(name, label) {
   return row;
 }
 
+/* dabox source: json-loader */
 async function loadJSON(path) {
   const res = await fetch(chrome.runtime.getURL(path));
   return await res.json();
 }
 
+/* dabox source: dataset-loader */
 async function loadData() {
   VEHICLES = await loadJSON("data/vehicles.json");
   ENGINE_UPGRADES = await loadJSON("data/engineUpgrades.json");
@@ -664,6 +709,7 @@ async function loadData() {
   processVehicle();
 }
 
+/* dabox source: matcher-core */
 function findMatchInDatabase(fullName, database) {
   const keys = Object.keys(database).sort((a, b) => b.length - a.length);
   for (const key of keys) {
@@ -672,6 +718,7 @@ function findMatchInDatabase(fullName, database) {
   return null;
 }
 
+/* dabox source: trunk-lookup */
 function getBagaznikValue(model) {
   if (!model || !BAGAZNIKI) return null;
 
@@ -697,6 +744,7 @@ function getBagaznikValue(model) {
   return null;
 }
 
+/* dabox source: trunk-render */
 function updateBagaznikDisplay(model) {
   const el = document.getElementById("prpg-vehicle-trunk");
   if (!el) return;
@@ -710,6 +758,7 @@ function updateBagaznikDisplay(model) {
   el.textContent = bagaznikKg == null ? "Bagażnik: brak danych" : `Bagażnik: ${bagaznikKg} KG`;
 }
 
+/* dabox source: forum-scraper */
 function getContainedText(labelName) {
   const item = [...document.querySelectorAll("li.ipsDataItem")].find(i => {
     const strong = i.querySelector("strong");
@@ -739,11 +788,13 @@ function getContainedText(labelName) {
   return textParts.filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 
+/* dabox source: rarity-check */
 function isPartLimitedOrUnique(labelName) {
   const fullText = getContainedText(labelName).toLowerCase();
   return fullText.includes("limitowane") || fullText.includes("unikatowe");
 }
 
+/* dabox source: lights-lookup */
 function getLightsValue() {
   const fullName = getContainedText("Kolor świateł");
   if (!fullName) return 0;
@@ -757,6 +808,7 @@ function getLightsValue() {
   return LIGHTS[fallback] || 0;
 }
 
+/* dabox source: counter-lookup */
 function getCounterValue() {
   const fullName = getContainedText("Kolor licznika");
   if (!fullName) return 0;
@@ -770,6 +822,7 @@ function getCounterValue() {
   return COUNTERS[fallback] || 0;
 }
 
+/* dabox source: visual-score */
 function getVisualValue(parts) {
   let val = 0;
   parts.forEach(p => {
@@ -779,6 +832,7 @@ function getVisualValue(parts) {
   return val;
 }
 
+/* dabox source: vehicle-parser */
 function getVehicleData() {
   const data = {};
   document.querySelectorAll("li.ipsDataItem").forEach(item => {
@@ -789,6 +843,7 @@ function getVehicleData() {
   return data;
 }
 
+/* dabox source: vehicle-normalize */
 function parseVehicle(vData) {
   const getModel = t => t?.split("(")[0].trim();
   const getEngine = t => {
@@ -823,6 +878,7 @@ function parseVehicle(vData) {
   };
 }
 
+/* dabox source: waiting-state */
 function setWaitingState() {
   document.getElementById("prpg-vehicle-name").textContent = "Oczekiwanie na pojazd";
   updateBagaznikDisplay(null);
@@ -841,12 +897,14 @@ function setWaitingState() {
   setNotice("");
 }
 
+/* dabox source: ui-reset */
 function resetUI() {
   lastVUID = null;
   currentVehicle = null;
   setWaitingState();
 }
 
+/* dabox source: slider-sync */
 function setSliderVisualValue(key, value) {
   const row = document.querySelector(`.prpg-slider[data-key="${key}"]`);
   if (!row) return;
@@ -860,6 +918,7 @@ function setSliderVisualValue(key, value) {
   range.style.background = `linear-gradient(90deg, rgba(255,140,26,.92) 0%, rgba(255,140,26,.92) ${v}%, rgba(255,255,255,.08) ${v}%, rgba(255,255,255,.08) 100%)`;
 }
 
+/* dabox source: valuation-core */
 function calculateVehicleValue(vehicle) {
   currentVehicle = vehicle;
 
@@ -915,6 +974,22 @@ function calculateVehicleValue(vehicle) {
 
   const autoLimit = localStorage.getItem("prpg_gracz_auto_limit") === "true";
   const autoCfiV5 = localStorage.getItem("prpg_gracz_auto_cfi5") === "true";
+  /* dabox source: transport-rule */
+  const autoTransport = localStorage.getItem("prpg_gracz_transport") === "true";
+
+  const isTransportPart = (p) =>
+    p.includes("Aplikacja transportowa PRO") || p.includes("Aplikacja transportowa");
+
+  const vehicleHasTransportApp = vehicle.mechanical.some(isTransportPart);
+  const transportBase = vehicle.mechanical.reduce((sum, p) => {
+    if (!isTransportPart(p)) return sum;
+    if (p.includes("Aplikacja transportowa PRO")) {
+      return sum + (MECHANICAL["Aplikacja transportowa PRO"] || 0);
+    }
+    return sum + (MECHANICAL["Aplikacja transportowa"] || 0);
+  }, 0);
+  const transportDetected = autoTransport && vehicleHasTransportApp && transportBase > 0;
+  const transportExtra = transportDetected ? transportBase * multipliers.mechanical / 100 : 0;
 
   const hasLimitedLights = isPartLimitedOrUnique("Kolor świateł");
   const hasLimitedCounter = isPartLimitedOrUnique("Kolor licznika");
@@ -923,8 +998,10 @@ function calculateVehicleValue(vehicle) {
   const fCfiV5Mult = autoCfiV5 ? 100 : multipliers.cfi;
 
   const notices = [];
-  if (autoLimit && !hasLimitedLights) notices.push("<strong>Lampy:</strong> nie są limitowane ani unikatowe, więc auto 100% nie zostało użyte.");
-  if (autoLimit && !hasLimitedCounter) notices.push("<strong>Licznik:</strong> nie jest limitowany ani unikatowy, więc auto 100% nie zostało użyte.");
+  if (autoLimit && !hasLimitedLights) notices.push("<strong>Lampy:</strong> nie mają wariantu limitowanego ani unikatowego, więc ich wartość nie została naliczona według reguły auto 100%.");
+  if (autoLimit && !hasLimitedCounter) notices.push("<strong>Licznik:</strong> nie ma wariantu limitowanego ani unikatowego, więc jego wartość nie została naliczona według reguły auto 100%.");
+  if (autoTransport && !vehicleHasTransportApp) notices.push("<strong>Aplikacja transportowa:</strong> nie została wykryta w tym pojeździe, więc jej wartość nie została doliczona.");
+  else if (autoTransport && vehicleHasTransportApp && !transportDetected) notices.push("<strong>Aplikacja transportowa:</strong> pozycja została wykryta, ale nie ma przypisanej ceny w data/mechanical.json.");
   if (autoBody && !bodyRuleActive) {
     if (detectedBodyLvl !== null) {
       notices.push(`<strong>Body Lvl:</strong> wykryty poziom ${detectedBodyLvl} jest niższy niż ustawiony próg ${multipliers.bodykitLvl}, więc auto 100% nie zostało użyte.`);
@@ -943,7 +1020,7 @@ function calculateVehicleValue(vehicle) {
 
   const meng = engineVal * multipliers.engine / 100;
   const mbody = bodyVal * finalBodyMult / 100;
-  const mmech = mech * multipliers.mechanical / 100;
+  const mmech = mech * multipliers.mechanical / 100 + transportExtra;
   const mkit = kit * multipliers.kit / 100;
   const mcfi = cfiNormal * multipliers.cfi / 100 + cfiV5 * fCfiV5Mult / 100;
   const mlpg = lpg * multipliers.lpg / 100;
@@ -965,7 +1042,7 @@ function calculateVehicleValue(vehicle) {
 
   const parts = {
     basePrice: { val: basePrice, meta: `${multipliers.basePrice}% przedziału min–max` },
-    mechanical: { val: mmech, meta: `${multipliers.mechanical}% tuning` },
+    mechanical: { val: mmech, meta: `${multipliers.mechanical}% tuning${transportDetected ? ` · app: ${Math.round(transportExtra).toLocaleString("pl-PL")}` : ""}` },
     kit: { val: mkit, meta: `${multipliers.kit}% zestaw` },
     cfi: { val: mcfi, meta: `${cfiV5 > 0 && autoCfiV5 ? 100 : multipliers.cfi}% CFI` },
     lpg: { val: mlpg, meta: `${multipliers.lpg}% LPG` },
@@ -987,6 +1064,7 @@ function calculateVehicleValue(vehicle) {
   });
 }
 
+/* dabox source: observer-pipeline */
 function processVehicle() {
   if (!DATA_READY) return;
 
