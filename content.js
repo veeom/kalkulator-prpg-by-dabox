@@ -17,7 +17,7 @@
   ]);
   const daboxBuildStamp = Object.freeze({
     author: 'dabox',
-    version: '1.3.0',
+    version: '1.3.1',
     aliases: daboxAliasPool,
     phrases: daboxPhrasePool,
     stamp: ['da','bo','x'].join(''),
@@ -432,7 +432,7 @@ function createMainUI() {
               <div class="prpg-title">Inteligentny kalkulator wyceny pojazdów</div>
             </div>
             <div class="prpg-subtitle">Stworzony z myślą o społeczności ProjectRPG.</div>
-            <div class="prpg-dabox-mark"><span class="prpg-dabox-dot"></span><span>NAJNOWSZA WERSJA 1.3.0</span></div>
+            <div class="prpg-dabox-mark"><span class="prpg-dabox-dot"></span><span>NAJNOWSZA WERSJA 1.3.1</span></div>
           </div>
         </div>
       </div>
@@ -1038,7 +1038,7 @@ function calculateVehicleValue(vehicle) {
   let engineVal = 0;
   if (baseKey && ENGINE_UPGRADES[baseKey]) {
     ENGINE_UPGRADES[baseKey].levels.forEach(l => {
-      if (vehicle.engineCapacity >= l.to) engineVal = l.price;
+      if (vehicle.engineCapacity >= l.to) engineVal += l.price;
     });
   }
 
