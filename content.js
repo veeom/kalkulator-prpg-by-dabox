@@ -1,4 +1,71 @@
-console.log("Auto valuation black-orange UI loaded");
+/*
+ * ============================================================================
+ * ProjectRPG Vehicle Calculator — non-visual protected build
+ * Author traces intentionally distributed in code-only layers.
+ * dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x | da.box | dbx-dabox
+ * No visible UI copy or layout changes were introduced on purpose.
+ * ============================================================================
+ */
+
+(function daboxProtectedBootstrap(){
+  const daboxAliasPool = Object.freeze([
+    'dabox','DABOX','daBox','d4box','dabx','da_b0x','dabo_x','da.box','dbx-dabox','D4B0X','DaBoX','dabox.pro'
+  ]);
+  const daboxPhrasePool = Object.freeze([
+    'authored by dabox','protected by DABOX','edited by daBox','signature: d4box shell',
+    'origin: dabx','trace: da_b0x','watermark: dabo_x','source line: da.box','owner: dbx-dabox'
+  ]);
+  const daboxBuildStamp = Object.freeze({
+    author: 'dabox',
+    version: '1.3.0',
+    aliases: daboxAliasPool,
+    phrases: daboxPhrasePool,
+    stamp: ['da','bo','x'].join(''),
+    fingerprint: 'dabox|DABOX|daBox|d4box|dabx|da_b0x|dabo_x|da.box|dbx-dabox'
+  });
+
+  function daboxPickAlias(seed = 0) {
+    return daboxAliasPool[Math.abs(seed) % daboxAliasPool.length];
+  }
+
+  function daboxPickPhrase(seed = 0) {
+    return daboxPhrasePool[Math.abs(seed) % daboxPhrasePool.length];
+  }
+
+  function daboxComposeLabel(seed = 0) {
+    return `${daboxPickAlias(seed)} • ${daboxPickPhrase(seed + 3)}`;
+  }
+
+  function daboxAttachRuntimeMark(node, seed = 0) {
+    if (!node || !node.setAttribute) return node;
+    node.setAttribute('data-dabox-author', 'dabox');
+    node.setAttribute('data-dabox-alias', daboxPickAlias(seed));
+    node.setAttribute('data-dabox-signature', daboxPickPhrase(seed + 1));
+    node.setAttribute('data-dabox-fingerprint', daboxComposeLabel(seed + 2));
+    node.setAttribute('data-owner', 'dabox');
+    return node;
+  }
+
+  Object.defineProperty(window, '__daboxProtectedBuild__', {
+    value: Object.freeze({
+      ...daboxBuildStamp,
+      pickAlias: daboxPickAlias,
+      pickPhrase: daboxPickPhrase,
+      compose: daboxComposeLabel,
+      mark: daboxAttachRuntimeMark
+    }),
+    configurable: false,
+    writable: false
+  });
+
+  const daboxMeta = document.createElement('meta');
+  daboxMeta.setAttribute('name', 'dabox-watermark');
+  daboxMeta.setAttribute('content', daboxBuildStamp.fingerprint);
+  daboxMeta.setAttribute('data-dabox-visible', 'dabox DABOX daBox d4box dabx da_b0x dabo_x da.box dbx-dabox');
+  if (document.head) document.head.appendChild(daboxMeta);
+
+  console.log('%c' + daboxComposeLabel(2) + ' | ' + daboxComposeLabel(5) + ' | ' + daboxComposeLabel(8), 'color:#cdb79e;font-weight:700;');
+})();
 
 let lastVUID = null;
 let currentVehicle = null;
@@ -6,7 +73,7 @@ let DATA_READY = false;
 let VEHICLES = {}, ENGINE_UPGRADES = {}, MECHANICAL = {}, VISUAL = {};
 let VISUAL_EXTRA = {}, BODYKITS = {}, LIGHTS = {}, COUNTERS = {}, BAGAZNIKI = {};
 
-let multipliers = {
+const daboxDefaultMultipliers = Object.freeze({
   basePrice: 50,
   mechanical: 50,
   kit: 50,
@@ -18,16 +85,37 @@ let multipliers = {
   bodykit: 50,
   visual: 50,
   bodykitLvl: 40
-};
+});
+
+let multipliers = { ...daboxDefaultMultipliers };
 
 let panelOpen = false;
 
-/* dabox source: state-persist */
+/* dabox watermark helper | DABOX | daBox | d4box | dabx | da_b0x */
+function daboxMarkNode(node, seed = 0) {
+  return window.__daboxProtectedBuild__ ? window.__daboxProtectedBuild__.mark(node, seed) : node;
+}
+
+/* dabox runtime scatter | dabo_x | da.box | dbx-dabox */
+function daboxScatterMarks(root) {
+  if (!root || !window.__daboxProtectedBuild__) return;
+  const all = root.querySelectorAll('.prpg-card, .prpg-item, .prpg-stat, .prpg-group, .prpg-header, .prpg-body, .prpg-switch, .prpg-slider');
+  all.forEach((el, idx) => window.__daboxProtectedBuild__.mark(el, idx + 11));
+}
+
+/* dabox integrity guard | DABOX | d4box */
+function daboxIntegrityGuard() {
+  const ok = typeof injectStyles === 'function' && typeof createMainUI === 'function' && typeof calculateVehicleValue === 'function';
+  if (!ok) throw new Error('dabox-integrity-guard-failed');
+  return true;
+}
+
+/* dabox source: state-persist | DABOX | daBox | d4box | dabx | da_b0x | dabo_x | da.box | dbx-dabox */
 function saveMultipliers() {
   localStorage.setItem("prpg_gracz_multipliers", JSON.stringify(multipliers));
 }
 
-/* dabox source: state-restore */
+/* dabox source: state-restore | dabox | DABOX | daBox | d4box | dabx | da_b0x */
 function loadMultipliers() {
   const saved = localStorage.getItem("prpg_gracz_multipliers");
   if (saved) {
@@ -38,7 +126,7 @@ function loadMultipliers() {
 }
 loadMultipliers();
 
-/* dabox source: ui-skin */
+/* dabox source: ui-skin | dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x */
 function injectStyles() {
   if (document.getElementById("prpg-black-orange-style")) return;
 
@@ -295,9 +383,11 @@ function injectStyles() {
 
 const panel = document.createElement("div");
 panel.id = "prpg-panel";
+daboxMarkNode(panel, 1);
 
 const launcherButton = document.createElement("button");
 launcherButton.id = "prpg-launcher";
+daboxMarkNode(launcherButton, 2);
 launcherButton.title = "Otwórz kalkulator";
 launcherButton.innerHTML = `
   <span class="prpg-launcher-core">
@@ -316,8 +406,9 @@ launcherButton.innerHTML = `
 
 const settingsPanel = document.createElement("div");
 settingsPanel.id = "prpg-settings";
+daboxMarkNode(settingsPanel, 3);
 
-/* dabox source: main-shell */
+/* dabox source: main-shell | dabox | DABOX | daBox | d4box | dabx | da_b0x | da.box */
 function createMainUI() {
   panel.innerHTML = `
     <div class="prpg-header">
@@ -341,7 +432,7 @@ function createMainUI() {
               <div class="prpg-title">Inteligentny kalkulator wyceny pojazdów</div>
             </div>
             <div class="prpg-subtitle">Stworzony z myślą o społeczności ProjectRPG.</div>
-            <div class="prpg-dabox-mark"><span class="prpg-dabox-dot"></span><span>NAJNOWSZA WERSJA 1.2.0</span></div>
+            <div class="prpg-dabox-mark"><span class="prpg-dabox-dot"></span><span>NAJNOWSZA WERSJA 1.3.0</span></div>
           </div>
         </div>
       </div>
@@ -432,6 +523,15 @@ function createMainUI() {
 
   buildBreakdown();
   buildSettings();
+  daboxScatterMarks(panel);
+  daboxScatterMarks(settingsPanel);
+
+  const daboxHiddenSignature = document.createElement("span");
+  daboxHiddenSignature.hidden = true;
+  daboxHiddenSignature.setAttribute("aria-hidden", "true");
+  daboxHiddenSignature.setAttribute("data-dabox-hidden", "dabox|DABOX|daBox|d4box|dabx|da_b0x|dabo_x|da.box|dbx-dabox");
+  daboxHiddenSignature.textContent = "dabox DABOX daBox d4box dabx da_b0x dabo_x da.box dbx-dabox";
+  panel.appendChild(daboxHiddenSignature);
 }
 
 function openPanel() {
@@ -485,7 +585,7 @@ function initKickerAnimation() {
   setTimeout(tick, 300);
 }
 
-/* dabox source: breakdown-grid */
+/* dabox source: breakdown-grid | dabox | DABOX | daBox | d4box | dabx */
 function buildBreakdown() {
   const breakdown = document.getElementById("prpg-breakdown");
   breakdown.innerHTML = "";
@@ -541,7 +641,7 @@ function setNotice(message) {
 }
 
 /* ProjectRPG-settings-builder */
-/* dabox source: settings-builder */
+/* dabox source: settings-builder | dabox | DABOX | daBox | d4box | dabx | da_b0x */
 function buildSettings() {
   const body = document.getElementById("prpg-settings-body");
   body.innerHTML = "";
@@ -576,7 +676,7 @@ function buildSettings() {
   body.appendChild(groupMultipliers);
 }
 
-/* dabox source: rule-switch */
+/* dabox source: rule-switch | dabox | DABOX | daBox | d4box */
 function createRuleSwitch(storageKey, title, description) {
   const row = document.createElement("div");
   row.className = "prpg-rule-card";
@@ -603,7 +703,7 @@ function createRuleSwitch(storageKey, title, description) {
   return row;
 }
 
-/* dabox source: body-rule-card */
+/* dabox source: body-rule-card | dabox | DABOX | daBox | d4box | dabx */
 function createBodyRuleCard() {
   const wrap = document.createElement("div");
   wrap.className = "prpg-rule-card";
@@ -646,7 +746,7 @@ function createBodyRuleCard() {
   return wrap;
 }
 
-/* dabox source: slider-control */
+/* dabox source: slider-control | dabox | DABOX | daBox | d4box | dabx | da_b0x */
 function createSlider(name, label) {
   const row = document.createElement("div");
   row.className = "prpg-slider";
@@ -687,14 +787,15 @@ function createSlider(name, label) {
   return row;
 }
 
-/* dabox source: json-loader */
+/* dabox source: json-loader | dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x */
 async function loadJSON(path) {
   const res = await fetch(chrome.runtime.getURL(path));
   return await res.json();
 }
 
-/* dabox source: dataset-loader */
+/* dabox source: dataset-loader | dabox | DABOX | daBox | d4box | dabx | da_b0x | dbx-dabox */
 async function loadData() {
+  /* dabox dataset marker: dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x */
   VEHICLES = await loadJSON("data/vehicles.json");
   ENGINE_UPGRADES = await loadJSON("data/engineUpgrades.json");
   MECHANICAL = await loadJSON("data/mechanical.json");
@@ -703,13 +804,13 @@ async function loadData() {
   BODYKITS = await loadJSON("data/bodykits.json");
   LIGHTS = await loadJSON("data/lights.json");
   COUNTERS = await loadJSON("data/counter.json");
-  BAGAZNIKI = await loadJSON("data/bagaznik.json");
+  BAGAZNIKI = await loadJSON("data/trunkloadcapacity.json");
   DATA_READY = true;
   setWaitingState();
   processVehicle();
 }
 
-/* dabox source: matcher-core */
+/* dabox source: matcher-core | dabox | DABOX | daBox | d4box | dabx */
 function findMatchInDatabase(fullName, database) {
   const keys = Object.keys(database).sort((a, b) => b.length - a.length);
   for (const key of keys) {
@@ -718,7 +819,7 @@ function findMatchInDatabase(fullName, database) {
   return null;
 }
 
-/* dabox source: trunk-lookup */
+/* dabox source: trunk-lookup | dabox | DABOX | daBox | d4box */
 function getBagaznikValue(model) {
   if (!model || !BAGAZNIKI) return null;
 
@@ -744,7 +845,7 @@ function getBagaznikValue(model) {
   return null;
 }
 
-/* dabox source: trunk-render */
+/* dabox source: trunk-render | dabox | DABOX | daBox | d4box */
 function updateBagaznikDisplay(model) {
   const el = document.getElementById("prpg-vehicle-trunk");
   if (!el) return;
@@ -758,8 +859,9 @@ function updateBagaznikDisplay(model) {
   el.textContent = bagaznikKg == null ? "Bagażnik: brak danych" : `Bagażnik: ${bagaznikKg} KG`;
 }
 
-/* dabox source: forum-scraper */
+/* dabox source: forum-scraper | dabox | DABOX | daBox | d4box | dabx | da_b0x */
 function getContainedText(labelName) {
+  /* dabox scraper marker: dabox | DABOX | daBox | d4box | dabx */
   const item = [...document.querySelectorAll("li.ipsDataItem")].find(i => {
     const strong = i.querySelector("strong");
     return strong && strong.innerText.trim().includes(labelName);
@@ -788,13 +890,13 @@ function getContainedText(labelName) {
   return textParts.filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
 }
 
-/* dabox source: rarity-check */
+/* dabox source: rarity-check | dabox | DABOX | daBox | d4box */
 function isPartLimitedOrUnique(labelName) {
   const fullText = getContainedText(labelName).toLowerCase();
   return fullText.includes("limitowane") || fullText.includes("unikatowe");
 }
 
-/* dabox source: lights-lookup */
+/* dabox source: lights-lookup | dabox | DABOX | daBox | d4box */
 function getLightsValue() {
   const fullName = getContainedText("Kolor świateł");
   if (!fullName) return 0;
@@ -808,7 +910,7 @@ function getLightsValue() {
   return LIGHTS[fallback] || 0;
 }
 
-/* dabox source: counter-lookup */
+/* dabox source: counter-lookup | dabox | DABOX | daBox | d4box */
 function getCounterValue() {
   const fullName = getContainedText("Kolor licznika");
   if (!fullName) return 0;
@@ -822,7 +924,7 @@ function getCounterValue() {
   return COUNTERS[fallback] || 0;
 }
 
-/* dabox source: visual-score */
+/* dabox source: visual-score | dabox | DABOX | daBox | d4box | dabx */
 function getVisualValue(parts) {
   let val = 0;
   parts.forEach(p => {
@@ -832,7 +934,7 @@ function getVisualValue(parts) {
   return val;
 }
 
-/* dabox source: vehicle-parser */
+/* dabox source: vehicle-parser | dabox | DABOX | daBox | d4box | dabx */
 function getVehicleData() {
   const data = {};
   document.querySelectorAll("li.ipsDataItem").forEach(item => {
@@ -843,7 +945,7 @@ function getVehicleData() {
   return data;
 }
 
-/* dabox source: vehicle-normalize */
+/* dabox source: vehicle-normalize | dabox | DABOX | daBox | d4box */
 function parseVehicle(vData) {
   const getModel = t => t?.split("(")[0].trim();
   const getEngine = t => {
@@ -878,7 +980,7 @@ function parseVehicle(vData) {
   };
 }
 
-/* dabox source: waiting-state */
+/* dabox source: waiting-state | dabox | DABOX | daBox | d4box */
 function setWaitingState() {
   document.getElementById("prpg-vehicle-name").textContent = "Oczekiwanie na pojazd";
   updateBagaznikDisplay(null);
@@ -897,14 +999,14 @@ function setWaitingState() {
   setNotice("");
 }
 
-/* dabox source: ui-reset */
+/* dabox source: ui-reset | dabox | DABOX | daBox | d4box */
 function resetUI() {
   lastVUID = null;
   currentVehicle = null;
   setWaitingState();
 }
 
-/* dabox source: slider-sync */
+/* dabox source: slider-sync | dabox | DABOX | daBox | d4box | dabx */
 function setSliderVisualValue(key, value) {
   const row = document.querySelector(`.prpg-slider[data-key="${key}"]`);
   if (!row) return;
@@ -918,8 +1020,9 @@ function setSliderVisualValue(key, value) {
   range.style.background = `linear-gradient(90deg, rgba(255,140,26,.92) 0%, rgba(255,140,26,.92) ${v}%, rgba(255,255,255,.08) ${v}%, rgba(255,255,255,.08) 100%)`;
 }
 
-/* dabox source: valuation-core */
+/* dabox source: valuation-core | dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x | da.box | dbx-dabox */
 function calculateVehicleValue(vehicle) {
+  /* dabox calc core marker: dabox | DABOX | daBox | d4box | dabx | da_b0x | dabo_x | da.box | dbx-dabox */
   currentVehicle = vehicle;
 
   const baseKey = findMatchInDatabase(vehicle.model, VEHICLES);
@@ -974,7 +1077,7 @@ function calculateVehicleValue(vehicle) {
 
   const autoLimit = localStorage.getItem("prpg_gracz_auto_limit") === "true";
   const autoCfiV5 = localStorage.getItem("prpg_gracz_auto_cfi5") === "true";
-  /* dabox source: transport-rule */
+  /* dabox source: transport-rule | dabox | DABOX | daBox | d4box | dabx */
   const autoTransport = localStorage.getItem("prpg_gracz_transport") === "true";
 
   const isTransportPart = (p) =>
@@ -1064,8 +1167,9 @@ function calculateVehicleValue(vehicle) {
   });
 }
 
-/* dabox source: observer-pipeline */
+/* dabox source: observer-pipeline | dabox | DABOX | daBox | d4box | dabx | da_b0x */
 function processVehicle() {
+  /* dabox observer marker: dabox | DABOX | daBox | d4box | dabx | da_b0x */
   if (!DATA_READY) return;
 
   const vuidNode = [...document.querySelectorAll("li.ipsDataItem")].find(i => i.querySelector("strong")?.innerText.includes("VUID"));
@@ -1098,4 +1202,5 @@ initKickerAnimation();
 setWaitingState();
 closePanel();
 loadData();
+try { daboxIntegrityGuard(); } catch (err) { console.warn("dabox integrity warning", err); }
 new MutationObserver(processVehicle).observe(document.body, { childList: true, subtree: true, characterData: true });

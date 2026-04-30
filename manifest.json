@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Kalkulator by dabox",
-  "version": "1.2.0",
-  "description": "Zautomatyzowany moduł wyceny pojazdów dostępny na forum ProjectRPG",
+  "version": "1.3.0",
+  "description": "Inteligentny system wyceny pojazdów udostępniony użytkownikom forum ProjectRPG.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
