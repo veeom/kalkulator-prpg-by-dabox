@@ -1,0 +1,1227 @@
+{
+  "Admiral": {
+    "STR": {
+      "price": 35000,
+      "level": 25
+    },
+    "STR Aero": {
+      "price": 35000,
+      "level": 25
+    }
+  },
+  "Admiral Kombi": {
+    "STR": {
+      "price": 35000,
+      "level": 25
+    },
+    "STR Aero": {
+      "price": 35000,
+      "level": 25
+    }
+  },
+  "Alpha": {
+    "GTO VR-4 Aero I": {
+      "price": 11000,
+      "level": 44
+    },
+    "GT9000 T/R": {
+      "price": 33000,
+      "level": 13
+    },
+    "GTO": {
+      "price": 50000,
+      "level": 20
+    },
+    "GTO  T/R": {
+      "price": 65000,
+      "level": 26
+    },
+    "VR-4": {
+      "price": 90000,
+      "level": 38
+    },
+    "VR-4 Aero I": {
+      "price": 90000,
+      "level": 38
+    },
+    "VR-4 Aero II": {
+      "price": 90000,
+      "level": 38
+    },
+    "GTO VR-4": {
+      "price": 110000,
+      "level": 44
+    },
+    "GTO VR-4 Aero II": {
+      "price": 110000,
+      "level": 44
+    }
+  },
+  "Banshee": {
+    "Viper": {
+      "price": 65000,
+      "level": 17
+    }
+  },
+  "Blista Compact": {
+    "Rally": {
+      "price": 50000,
+      "level": 20
+    },
+    "VX": {
+      "price": 55000,
+      "level": 28
+    },
+    "VX Aero": {
+      "price": 57500,
+      "level": 30
+    },
+    "GT": {
+      "price": 110000,
+      "level": 44
+    },
+    "GT Aero": {
+      "price": 115000,
+      "level": 46
+    }
+  },
+  "Bobcat": {
+    "TRD": {
+      "price": 20000,
+      "level": 12
+    },
+    "Offroad": {
+      "price": 28000,
+      "level": 16
+    }
+  },
+  "Bravura": {
+    "Custom": {
+      "price": 35000,
+      "level": 20
+    },
+    "GT": {
+      "price": 45000,
+      "level": 26
+    },
+    "GT Custom": {
+      "price": 65000,
+      "level": 30
+    }
+  },
+  "Buccaneer": {
+    "Cruiser": {
+      "price": 15000,
+      "level": 10
+    },
+    "Sport": {
+      "price": 24000,
+      "level": 18
+    },
+    "S/T": {
+      "price": 36000,
+      "level": 26
+    },
+    "S/T Cruiser": {
+      "price": 44000,
+      "level": 30
+    },
+    "S/T Sport": {
+      "price": 50000,
+      "level": 34
+    },
+    "Resto": {
+      "price": 65000,
+      "level": 32
+    },
+    "Resto Cruiser": {
+      "price": 75000,
+      "level": 36
+    },
+    "S/T Resto": {
+      "price": 80000,
+      "level": 38
+    },
+    "Resto Sport": {
+      "price": 85000,
+      "level": 38
+    },
+    "S/T Resto Cruiser": {
+      "price": 90000,
+      "level": 42
+    },
+    "S/T Resto Sport": {
+      "price": 100000,
+      "level": 46
+    }
+  },
+  "Buffalo": {
+    "Super Sport": {
+      "price": 45000,
+      "level": 25
+    },
+    "HellCat": {
+      "price": 125000,
+      "level": 40
+    },
+    "Challenger": {
+      "price": 185000,
+      "level": 60
+    }
+  },
+  "Bullet": {
+    "MK2": {
+      "price": 90000,
+      "level": 40
+    }
+  },
+  "Cadrona": {
+    "GTC": {
+      "price": 18000,
+      "level": 10
+    },
+    "Krieger": {
+      "price": 65000,
+      "level": 32
+    },
+    "Krieger Aero": {
+      "price": 70000,
+      "level": 32
+    }
+  },
+  "Cadrona DTM": {
+    "Aero": {
+      "price": 5000,
+      "level": 6
+    }
+  },
+  "Cheetah": {
+    "La Manse": {
+      "price": 120000,
+      "level": 37
+    },
+    "Classic": {
+      "price": 130000,
+      "level": 40
+    },
+    "Classic Popup": {
+      "price": 135000,
+      "level": 40
+    },
+    "LBWK": {
+      "price": 210000,
+      "level": 65
+    },
+    "LBWK Popup": {
+      "price": 215000,
+      "level": 65
+    }
+  },
+  "Celsion": {
+    "MBS": {
+      "price": 60000,
+      "level": 32
+    },
+    "MBS Aero II": {
+      "price": 65000,
+      "level": 32
+    },
+    "MBS Aero III": {
+      "price": 67500,
+      "level": 32
+    },
+    "MBS Aero I": {
+      "price": 70000,
+      "level": 32
+    },
+    "KKS": {
+      "price": 90000,
+      "level": 36
+    },
+    "KKS Aero II": {
+      "price": 95000,
+      "level": 36
+    },
+    "KKS Aero III": {
+      "price": 97500,
+      "level": 36
+    },
+    "KKS Aero I": {
+      "price": 100000,
+      "level": 36
+    },
+    "BN": {
+      "price": 110000,
+      "level": 48
+    },
+    "BN Aero II": {
+      "price": 115000,
+      "level": 48
+    },
+    "BN Aero III": {
+      "price": 117500,
+      "level": 48
+    },
+    "BN Aero I": {
+      "price": 120000,
+      "level": 48
+    }
+  },
+  "Clover": {
+    "Demon": {
+      "price": 80000,
+      "level": 24
+    },
+    "Turbo": {
+      "price": 95000,
+      "level": 30
+    }
+  },
+  "Clover Wagon": {
+    "Demon": {
+      "price": 80000,
+      "level": 24
+    },
+    "Turbo": {
+      "price": 95000,
+      "level": 30
+    }
+  },
+  "Club": {
+    "Rally SS": {
+      "price": 63000,
+      "level": 27
+    },
+    "Classic": {
+      "price": 65000,
+      "level": 28
+    }
+  },
+  "Comet": {
+    "Aero I": {
+      "price": 5000,
+      "level": 8
+    },
+    "Aero II": {
+      "price": 7500,
+      "level": 10
+    },
+    "Aero III": {
+      "price": 10000,
+      "level": 12
+    },
+    "Aero IV": {
+      "price": 15000,
+      "level": 15
+    },
+    "Safari": {
+      "price": 40000,
+      "level": 10
+    },
+    "Safari Aero I": {
+      "price": 45000,
+      "level": 10
+    },
+    "Safari Aero II": {
+      "price": 47500,
+      "level": 10
+    },
+    "Safari Aero III": {
+      "price": 50000,
+      "level": 12
+    },
+    "Popup": {
+      "price": 50000,
+      "level": 24
+    },
+    "Safari Aero IV": {
+      "price": 55000,
+      "level": 15
+    },
+    "Popup Aero I": {
+      "price": 55000,
+      "level": 24
+    },
+    "Popup Aero II": {
+      "price": 57500,
+      "level": 24
+    },
+    "Popup Aero III": {
+      "price": 60000,
+      "level": 24
+    },
+    "Safari Popup": {
+      "price": 60000,
+      "level": 28
+    },
+    "Popup Aero IV": {
+      "price": 65000,
+      "level": 24
+    },
+    "Safari Popup Aero I": {
+      "price": 65000,
+      "level": 28
+    },
+    "Safari Popup Aero II": {
+      "price": 67500,
+      "level": 28
+    },
+    "Safari Popup Aero III": {
+      "price": 70000,
+      "level": 28
+    },
+    "Safari Popup Aero IV": {
+      "price": 75000,
+      "level": 28
+    },
+    "964": {
+      "price": 125000,
+      "level": 38
+    },
+    "964 Aero I": {
+      "price": 130000,
+      "level": 38
+    },
+    "964 Aero II": {
+      "price": 132500,
+      "level": 38
+    },
+    "964 Aero III": {
+      "price": 135000,
+      "level": 38
+    },
+    "964 Aero IV": {
+      "price": 140000,
+      "level": 38
+    },
+    "964 Popup": {
+      "price": 155000,
+      "level": 44
+    },
+    "964 Popup Aero I": {
+      "price": 160000,
+      "level": 44
+    },
+    "964 Popup Aero II": {
+      "price": 162500,
+      "level": 44
+    },
+    "964 Popup Aero III": {
+      "price": 165000,
+      "level": 44
+    },
+    "964 Popup Aero IV": {
+      "price": 170000,
+      "level": 44
+    },
+    "GT": {
+      "price": 200000,
+      "level": 55
+    },
+    "GT Aero I": {
+      "price": 205000,
+      "level": 55
+    },
+    "GT Aero II": {
+      "price": 207500,
+      "level": 55
+    },
+    "GT Aero III": {
+      "price": 210000,
+      "level": 55
+    },
+    "GT Aero IV": {
+      "price": 215000,
+      "level": 55
+    }
+  },
+  "Contander": {
+    "F-350": {
+      "price": 25000,
+      "level": 7
+    }
+  },
+  "Elegant": {
+    "Custom": {
+      "price": 68000,
+      "level": 40
+    }
+  },
+  "Elegy": {
+    "Drift": {
+      "price": 30000,
+      "level": 20
+    },
+    "RH5": {
+      "price": 110000,
+      "level": 45
+    },
+    "RH5 Pandem": {
+      "price": 130000,
+      "level": 55
+    }
+  },
+  "Euros": {
+    "GTS": {
+      "price": 90000,
+      "level": 30
+    },
+    "GTS WB": {
+      "price": 115000,
+      "level": 40
+    },
+    "C-1 Drift": {
+      "price": 150000,
+      "level": 50
+    }
+  },
+  "Emperor": {
+    "Zacoe": {
+      "price": 40000,
+      "level": 20
+    },
+    "KA-7 Aero": {
+      "price": 45000,
+      "level": 22
+    },
+    "KA-7": {
+      "price": 50000,
+      "level": 24
+    },
+    "Kouki": {
+      "price": 60000,
+      "level": 28
+    }
+  },
+  "FCR-900": {
+    "Sport": {
+      "price": 50000,
+      "level": 18
+    }
+  },
+  "Feltzer": {
+    "STR": {
+      "price": 110000,
+      "level": 40
+    }
+  },
+  "Feroci": {
+    "Custom": {
+      "price": 150000,
+      "level": 55
+    },
+    "Custom Popup": {
+      "price": 155000,
+      "level": 55
+    }
+  },
+  "Flash": {
+    "Rally": {
+      "price": 50000,
+      "level": 24
+    },
+    "CS": {
+      "price": 90000,
+      "level": 32
+    },
+    "EF": {
+      "price": 115000,
+      "level": 38
+    },
+    "GT": {
+      "price": 140000,
+      "level": 44
+    }
+  },
+  "Fortune": {
+    "Rocket Bunny": {
+      "price": 100000,
+      "level": 40
+    }
+  },
+  "Hermes": {
+    "Custom": {
+      "price": 75000,
+      "level": 35
+    }
+  },
+  "Huntley": {
+    "Offroad": {
+      "price": 35000,
+      "level": 22
+    },
+    "XR": {
+      "price": 50000,
+      "level": 28
+    },
+    "Expedition": {
+      "price": 75000,
+      "level": 38
+    },
+    "STR": {
+      "price": 115000,
+      "level": 55
+    }
+  },
+  "Jester": {
+    "RDX": {
+      "price": 80000,
+      "level": 38
+    },
+    "WNG": {
+      "price": 105000,
+      "level": 50
+    }
+  },
+  "Journey": {
+    "FL": {
+      "price": 14000,
+      "level": 10
+    }
+  },
+  "Landstalker": {
+    "Offroad": {
+      "price": 40000,
+      "level": 14
+    },
+    "Rally": {
+      "price": 60000,
+      "level": 22
+    },
+    "Custom": {
+      "price": 85000,
+      "level": 32
+    }
+  },
+  "Majestic": {
+    "GNX": {
+      "price": 55000,
+      "level": 30
+    }
+  },
+  "Manana": {
+    "Type I": {
+      "price": 55000,
+      "level": 34
+    }
+  },
+  "Merit": {
+    "Prestige": {
+      "price": 56000,
+      "level": 32
+    },
+    "Sport": {
+      "price": 86000,
+      "level": 44
+    }
+  },
+  "Mesa": {
+    "Grande": {
+      "price": 60000,
+      "level": 30
+    }
+  },
+  "Mesa Rubicon": {
+    "Grande": {
+      "price": 60000,
+      "level": 30
+    }
+  },
+  "Monroe": {
+    "LBW": {
+      "price": 125000,
+      "level": 55
+    }
+  },
+  "Moonbeam": {
+    "Classic": {
+      "price": 10000,
+      "level": 6
+    },
+    "High Top": {
+      "price": 25000,
+      "level": 14
+    }
+  },
+  "Nebula": {
+    "LB": {
+      "price": 16000,
+      "level": 10
+    },
+    "RS": {
+      "price": 40000,
+      "level": 26
+    },
+    "GTE": {
+      "price": 54000,
+      "level": 34
+    },
+    "LB RS Aero": {
+      "price": 60000,
+      "level": 28
+    },
+    "LB GTE Aero": {
+      "price": 74000,
+      "level": 36
+    }
+  },
+  "Nebula Kombi": {
+    "LB": {
+      "price": 16000,
+      "level": 10
+    },
+    "RS": {
+      "price": 40000,
+      "level": 26
+    },
+    "GTE": {
+      "price": 54000,
+      "level": 34
+    },
+    "LB RS Aero": {
+      "price": 60000,
+      "level": 28
+    },
+    "LB GTE Aero": {
+      "price": 74000,
+      "level": 36
+    }
+  },
+  "Patriot": {
+    "Expedition": {
+      "price": 60000,
+      "level": 28
+    }
+  },
+  "Perennial": {
+    "Classic": {
+      "price": 30000,
+      "level": 12
+    }
+  },
+  "Phoenix": {
+    "Bandit": {
+      "price": 105000,
+      "level": 38
+    }
+  },
+  "Picador": {
+    "Custom": {
+      "price": 40000,
+      "level": 22
+    }
+  },
+  "Previon": {
+    "AEX": {
+      "price": 7500,
+      "level": 12
+    },
+    "HB": {
+      "price": 10000,
+      "level": 5
+    },
+    "HB Aero": {
+      "price": 15000,
+      "level": 10
+    },
+    "AEX HB": {
+      "price": 15000,
+      "level": 12
+    },
+    "AEX HB Aero": {
+      "price": 20000,
+      "level": 14
+    },
+    "Rally": 25000,
+    "HR": {
+      "price": 45000,
+      "level": 24
+    },
+    "Rally HB": 50000,
+    "Rally AEX HB Aero": 52500,
+    "Rally HB Aero": 55000,
+    "Rally AEX": 57500,
+    "Rally AEX HB": 57500,
+    "HR HB": {
+      "price": 90000,
+      "level": 24
+    },
+    "HB HR Aero": {
+      "price": 95000,
+      "level": 26
+    },
+    "HR AEX": {
+      "price": 97500,
+      "level": 24
+    },
+    "HR AEX HB": {
+      "price": 97500,
+      "level": 26
+    },
+    "HR AEX HB Aero": {
+      "price": 102000,
+      "level": 26
+    }
+  },
+  "Primo": {
+    "LX": {
+      "price": 25000,
+      "level": 16
+    }
+  },
+  "Primo Kombi": {
+    "LX": {
+      "price": 25000,
+      "level": 16
+    }
+  },
+  "Rancher": {
+    "Pickup": {
+      "price": 15000,
+      "level": 10
+    },
+    "Offroad": {
+      "price": 65000,
+      "level": 26
+    },
+    "Pickup Offroad": {
+      "price": 75000,
+      "level": 30
+    }
+  },
+  "Rancher Long": {
+    "Pickup": {
+      "price": 75000,
+      "level": 20
+    },
+    "Pickup Offroad": {
+      "price": 75000,
+      "level": 35
+    },
+    "Offroad": {
+      "price": 85000,
+      "level": 38
+    }
+  },
+  "Regina": {
+    "Turbo": {
+      "price": 30000,
+      "level": 20
+    }
+  },
+  "Sabre": {
+    "Classic": {
+      "price": 60000,
+      "level": 22
+    },
+    "Demon": {
+      "price": 80000,
+      "level": 24
+    },
+    "Turbo": {
+      "price": 95000,
+      "level": 30
+    }
+  },
+  "Sadler": {
+    "Stepside": {
+      "price": 20000,
+      "level": 14
+    }
+  },
+  "Sanchez": {
+    "SM": {
+      "price": 35000,
+      "level": 20
+    }
+  },
+  "Sandking": {
+    "Pickup": {
+      "price": 35000,
+      "level": 22
+    },
+    "City": {
+      "price": 45000,
+      "level": 24
+    },
+    "Pickup XJ": {
+      "price": 90000,
+      "level": 40
+    },
+    "XJ": {
+      "price": 100000,
+      "level": 45
+    }
+  },
+  "Sentinel": {
+    "Drift": {
+      "price": 30000,
+      "level": 8
+    },
+    "Classic": {
+      "price": 30000,
+      "level": 20
+    },
+    "Cliqtuning": {
+      "price": 95000,
+      "level": 50
+    }
+  },
+  "Sentinel Kombi": {
+    "Drift": {
+      "price": 30000,
+      "level": 8
+    },
+    "Classic": {
+      "price": 30000,
+      "level": 20
+    },
+    "Cliqtuning": {
+      "price": 95000,
+      "level": 50
+    }
+  },
+  "Schafter": {
+    "STR": {
+      "price": 100000,
+      "level": 35
+    },
+    "EVO": {
+      "price": 120000,
+      "level": 40
+    }
+  },
+  "Stainer": {
+    "LX": {
+      "price": 20000,
+      "level": 12
+    },
+    "LX Aero": {
+      "price": 25000,
+      "level": 12
+    },
+    "Marauder": {
+      "price": 65000,
+      "level": 26
+    },
+    "Marauder Aero": {
+      "price": 70000,
+      "level": 26
+    }
+  },
+  "Solair": {
+    "Custom": {
+      "price": 46000,
+      "level": 22
+    }
+  },
+  "Sultan": {
+    "Rally": {
+      "price": 60000,
+      "level": 35
+    },
+    "EV-1": {
+      "price": 65000,
+      "level": 40
+    },
+    "SB-1": {
+      "price": 75000,
+      "level": 45
+    }
+  },
+  "Sultan Kombi": {
+    "Rally": {
+      "price": 60000,
+      "level": 35
+    },
+    "EV-1": {
+      "price": 65000,
+      "level": 40
+    },
+    "SB-1": {
+      "price": 75000,
+      "level": 45
+    }
+  },
+  "Sunrise": {
+    "Base": {
+      "price": 15000,
+      "level": 10
+    },
+    "GTS": {
+      "price": 45000,
+      "level": 26
+    }
+  },
+  "Sunrise Kombi": {
+    "Base": {
+      "price": 15000,
+      "level": 10
+    },
+    "GTS": {
+      "price": 45000,
+      "level": 26
+    }
+  },
+  "Super GT": {
+    "Super Sport": {
+      "price": 90000,
+      "level": 35
+    },
+    "TRS": {
+      "price": 135000,
+      "level": 45
+    }
+  },
+  "Speedvan": {
+    "Hi-Top": {
+      "price": 7500,
+      "level": 10
+    },
+    "Civil": {
+      "price": 10000,
+      "level": 8
+    },
+    "Offroad": {
+      "price": 50000,
+      "level": 26
+    },
+    "Hi-Top Offroad": {
+      "price": 57500,
+      "level": 30
+    },
+    "STX": {
+      "price": 70000,
+      "level": 32
+    },
+    "Hi-Top STX": {
+      "price": 77500,
+      "level": 36
+    },
+    "Civil STX": {
+      "price": 80000,
+      "level": 32
+    }
+  },
+  "Tahoma": {
+    "Classic": {
+      "price": 28000,
+      "level": 24
+    }
+  },
+  "Tampa": {
+    "Daytona": {
+      "price": 55000,
+      "level": 18
+    },
+    "Drift": {
+      "price": 60000,
+      "level": 23
+    }
+  },
+  "Tornado": {
+    "Cabrio": {
+      "price": 20000,
+      "level": 12
+    },
+    "Cabrio Custom": {
+      "price": 50000,
+      "level": 25
+    },
+    "Custom": {
+      "price": 50000,
+      "level": 25
+    }
+  },
+  "Turismo": {
+    "Classic": {
+      "price": 80000,
+      "level": 40
+    }
+  },
+  "Uranus": {
+    "GX": {
+      "price": 10000,
+      "level": 12
+    },
+    "GT": {
+      "price": 15000,
+      "level": 16
+    },
+    "GXT": {
+      "price": 20000,
+      "level": 20
+    },
+    "Drift": {
+      "price": 30000,
+      "level": 24
+    },
+    "Drift GX": {
+      "price": 40000,
+      "level": 24
+    },
+    "Drift GT": {
+      "price": 45000,
+      "level": 24
+    },
+    "Drift GXT": {
+      "price": 50000,
+      "level": 24
+    },
+    "Krieger": {
+      "price": 90000,
+      "level": 40
+    },
+    "Krieger GX": {
+      "price": 100000,
+      "level": 40
+    },
+    "Krieger GT": {
+      "price": 105000,
+      "level": 40
+    },
+    "Krieger GXT": {
+      "price": 110000,
+      "level": 40
+    },
+    "Spec": {
+      "price": 115000,
+      "level": 45
+    },
+    "Spec GT": {
+      "price": 130000,
+      "level": 45
+    }
+  },
+  "Vincent": {
+    "STD": {
+      "price": 35000,
+      "level": 18
+    }
+  },
+  "Vincent Kombi": {
+    "STD": {
+      "price": 35000,
+      "level": 18
+    }
+  },
+  "Walton": {
+    "F-350 Classic": {
+      "price": 3000,
+      "level": 5
+    },
+    "F-250": {
+      "price": 7000,
+      "level": 3
+    },
+    "Rat Road ": {
+      "price": 17000,
+      "level": 11
+    }
+  },
+  "Washington": {
+    "Modern": {
+      "price": 24000,
+      "level": 15
+    },
+    "Sportspec": {
+      "price": 54000,
+      "level": 34
+    }
+  },
+  "Washington Kombi": {
+    "Modern": {
+      "price": 24000,
+      "level": 15
+    },
+    "Sportspec": {
+      "price": 54000,
+      "level": 34
+    }
+  },
+  "Willard": {
+    "VLV": {
+      "price": 30000,
+      "level": 22
+    },
+    "VLV Custom": {
+      "price": 65000,
+      "level": 34
+    },
+    "VLV Custom Aero": {
+      "price": 68500,
+      "level": 36
+    }
+  },
+  "Willard Kombi": {
+    "VLV": {
+      "price": 30000,
+      "level": 22
+    },
+    "VLV Custom": {
+      "price": 65000,
+      "level": 34
+    },
+    "VLV Custom Aero": {
+      "price": 68500,
+      "level": 36
+    }
+  },
+  "Windsor": {
+    "Classic": {
+      "price": 5000,
+      "level": 5
+    },
+    "Sportback": {
+      "price": 10000,
+      "level": 10
+    },
+    "GT": {
+      "price": 20000,
+      "level": 14
+    },
+    "Sportback GT": {
+      "price": 28000,
+      "level": 18
+    },
+    "Restomod": {
+      "price": 80000,
+      "level": 36
+    },
+    "Sportback Restomod": {
+      "price": 90000,
+      "level": 40
+    }
+  },
+  "Yosemite": {
+    "F-250": {
+      "price": 44000,
+      "level": 21
+    },
+    "Offroad": {
+      "price": 58000,
+      "level": 30
+    },
+    "Expedition": {
+      "price": 65000,
+      "level": 35
+    }
+  },
+  "ZR-350": {
+    "Amemiya": {
+      "price": 135000,
+      "level": 45
+    },
+    "Rocket Bunny": {
+      "price": 175000,
+      "level": 55
+    }
+  },
+  "Quadbike": {
+    "XTR": {
+      "price": 8000,
+      "level": 5
+    }
+  },
+  "_dabox": "8f2c1a9d-dab0x-2026-protected"
+}

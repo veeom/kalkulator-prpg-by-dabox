@@ -1,24 +1,30 @@
 {
   "manifest_version": 3,
-  "name": "Kalkulator by dabox",
-  "version": "1.3.1",
-  "description": "Inteligentny system wyceny pojazdów udostępniony użytkownikom forum ProjectRPG.",
+  "name": "Kalkulator Wyceny • dabox",
+  "short_name": "Kalk. dabox",
+  "version": "3.0.0",
+  "description": "Profesjonalny system automatycznej wyceny pojazdów dla graczy ProjectRPG. Stworzony przez dabox.",
+  "author": "dabox",
+  "homepage_url": "https://projectrpg.pl",
+
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+
   "content_scripts": [
     {
       "matches": [
         "https://projectrpg.pl/vehicles/*",
-        "https://projectrpg.pl/vehicles/?"
+        "https://projectrpg.pl/vehicles/?*"
       ],
-      "js": [
-        "content.js"
-      ]
+      "js": ["dabox-valuation.js"],
+      "run_at": "document_idle",
+      "all_frames": false
     }
   ],
+
   "web_accessible_resources": [
     {
       "resources": [
@@ -26,8 +32,11 @@
         "icons/*.png"
       ],
       "matches": [
-        "https://projectrpg.pl/*"
+        "https://projectrpg.pl/*",
+        "https://*.projectrpg.pl/*"
       ]
     }
-  ]
+  ],
+
+  "permissions": ["storage"]
 }

@@ -1,0 +1,3123 @@
+{
+  "Admiral": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Admiral Kombi": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Alpha": {
+    "levels": [
+      {
+        "from": 2.2,
+        "to": 2.4,
+        "price": 14000
+      },
+      {
+        "from": 2.4,
+        "to": 2.6,
+        "price": 16000
+      },
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      }
+    ]
+  },
+  "Banshee": {
+    "levels": [
+      {
+        "from": 3.7,
+        "to": 4.0,
+        "price": 32000
+      },
+      {
+        "from": 4.0,
+        "to": 4.3,
+        "price": 36000
+      },
+      {
+        "from": 4.3,
+        "to": 4.6,
+        "price": 40000
+      },
+      {
+        "from": 4.6,
+        "to": 4.9,
+        "price": 44000
+      }
+    ]
+  },
+  "Banshee Viper GTS": {
+    "levels": [
+      {
+        "from": 3.7,
+        "to": 4.0,
+        "price": 32000
+      },
+      {
+        "from": 4.0,
+        "to": 4.3,
+        "price": 36000
+      },
+      {
+        "from": 4.3,
+        "to": 4.6,
+        "price": 40000
+      },
+      {
+        "from": 4.6,
+        "to": 4.9,
+        "price": 44000
+      }
+    ]
+  },
+  "Benson": {
+    "levels": [
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      }
+    ]
+  },
+  "BF Injection": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "BF-400": {
+    "levels": [
+      {
+        "from": 0.4,
+        "to": 0.45,
+        "price": 6000
+      },
+      {
+        "from": 0.45,
+        "to": 0.5,
+        "price": 8000
+      },
+      {
+        "from": 0.5,
+        "to": 0.55,
+        "price": 8000
+      },
+      {
+        "from": 0.55,
+        "to": 0.6,
+        "price": 8000
+      }
+    ]
+  },
+  "Blade": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Blista Compact": {
+    "levels": [
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      },
+      {
+        "from": 3.0,
+        "to": 3.2,
+        "price": 22000
+      },
+      {
+        "from": 3.2,
+        "to": 3.4,
+        "price": 26000
+      }
+    ]
+  },
+  "Bobcat": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Boxville": {
+    "levels": [
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      }
+    ]
+  },
+  "Bravura": {
+    "levels": [
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      }
+    ]
+  },
+  "Broadway": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Buccanner": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Buffalo": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Bullet": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Bullet GT": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Burrito": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Cadrona": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Cadrona DTM": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Camper": {
+    "levels": [
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      }
+    ]
+  },
+  "Celsion": {
+    "levels": [
+      {
+        "from": 2.4,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.2,
+        "price": 22000
+      },
+      {
+        "from": 3.2,
+        "to": 3.6,
+        "price": 28000
+      },
+      {
+        "from": 3.6,
+        "to": 4.0,
+        "price": 32000
+      }
+    ]
+  },
+  "Cheetah": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Cheetah 76'": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Clover": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Clover Wagon": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Club": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Comet": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Contander": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "DeLuxo": {
+    "levels": [
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      },
+      {
+        "from": 3.0,
+        "to": 3.2,
+        "price": 22000
+      },
+      {
+        "from": 3.2,
+        "to": 3.4,
+        "price": 26000
+      },
+      {
+        "from": 3.4,
+        "to": 3.6,
+        "price": 28000
+      }
+    ]
+  },
+  "Elegant": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Elegy": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Emperor": {
+    "levels": [
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      },
+      {
+        "from": 2.2,
+        "to": 2.3,
+        "price": 14000
+      }
+    ]
+  },
+  "Esperanto": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Euros": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Faggio": {
+    "levels": [
+      {
+        "from": 0.05,
+        "to": 0.07,
+        "price": 4000
+      },
+      {
+        "from": 0.07,
+        "to": 0.09,
+        "price": 4000
+      },
+      {
+        "from": 0.09,
+        "to": 0.11,
+        "price": 4000
+      },
+      {
+        "from": 0.11,
+        "to": 0.13,
+        "price": 4000
+      }
+    ]
+  },
+  "FCR-900": {
+    "levels": [
+      {
+        "from": 0.8,
+        "to": 0.85,
+        "price": 10000
+      },
+      {
+        "from": 0.85,
+        "to": 0.9,
+        "price": 10000
+      },
+      {
+        "from": 0.9,
+        "to": 0.95,
+        "price": 10000
+      },
+      {
+        "from": 0.95,
+        "to": 1.0,
+        "price": 4000
+      }
+    ]
+  },
+  "FCR-900 RR": {
+    "levels": [
+      {
+        "from": 0.8,
+        "to": 0.85,
+        "price": 10000
+      },
+      {
+        "from": 0.85,
+        "to": 0.9,
+        "price": 10000
+      },
+      {
+        "from": 0.9,
+        "to": 0.95,
+        "price": 10000
+      },
+      {
+        "from": 0.95,
+        "to": 1.0,
+        "price": 4000
+      }
+    ]
+  },
+  "Feltzer": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Feltzer GT": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Feroci": {
+    "levels": [
+      {
+        "from": 3.0,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.6,
+        "price": 28000
+      },
+      {
+        "from": 3.5,
+        "to": 3.9,
+        "price": 30000
+      },
+      {
+        "from": 3.9,
+        "to": 4.2,
+        "price": 34000
+      }
+    ]
+  },
+  "Flash": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Fortune": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Fortune 240SX": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Freeway": {
+    "levels": [
+      {
+        "from": 1.0,
+        "to": 1.1,
+        "price": 4000
+      },
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      }
+    ]
+  },
+  "Glendale": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Greenwood": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Hermes": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Hotknife": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Huntley": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Hustler": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Infernus": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Infernus Kakimoto": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Infernus NSX": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Infernus Pandem": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Intruder": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Jester": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Journey": {
+    "levels": [
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      }
+    ]
+  },
+  "Landstalker": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Majestic": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Manana": {
+    "levels": [
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      }
+    ]
+  },
+  "Manana DTM": {
+    "levels": [
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      }
+    ]
+  },
+  "Merit": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Mesa": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Mesa Rubicon": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Monroe": {
+    "levels": [
+      {
+        "from": 3.0,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.6,
+        "price": 28000
+      },
+      {
+        "from": 3.6,
+        "to": 3.9,
+        "price": 30000
+      },
+      {
+        "from": 3.9,
+        "to": 4.2,
+        "price": 34000
+      }
+    ]
+  },
+  "Moonbeam": {
+    "levels": [
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 8000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      }
+    ]
+  },
+  "Mule": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Nebula": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Nebula Kombi": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "NRG-500": {
+    "levels": [
+      {
+        "from": 1.0,
+        "to": 1.05,
+        "price": 4000
+      },
+      {
+        "from": 1.05,
+        "to": 1.1,
+        "price": 4000
+      },
+      {
+        "from": 1.1,
+        "to": 1.15,
+        "price": 4000
+      },
+      {
+        "from": 1.15,
+        "to": 1.2,
+        "price": 6000
+      }
+    ]
+  },
+  "Oceanic": {
+    "levels": [
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      }
+    ]
+  },
+  "Patriot": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "PCJ-600": {
+    "levels": [
+      {
+        "from": 0.5,
+        "to": 0.55,
+        "price": 8000
+      },
+      {
+        "from": 0.55,
+        "to": 0.6,
+        "price": 8000
+      },
+      {
+        "from": 0.6,
+        "to": 0.65,
+        "price": 8000
+      },
+      {
+        "from": 0.65,
+        "to": 0.7,
+        "price": 8000
+      }
+    ]
+  },
+  "PCJ-600 XR": {
+    "levels": [
+      {
+        "from": 0.5,
+        "to": 0.55,
+        "price": 8000
+      },
+      {
+        "from": 0.55,
+        "to": 0.6,
+        "price": 8000
+      },
+      {
+        "from": 0.6,
+        "to": 0.65,
+        "price": 8000
+      },
+      {
+        "from": 0.65,
+        "to": 0.7,
+        "price": 8000
+      }
+    ]
+  },
+  "Perennial": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Phoenix": {
+    "levels": [
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      },
+      {
+        "from": 3.0,
+        "to": 3.2,
+        "price": 22000
+      },
+      {
+        "from": 3.2,
+        "to": 3.4,
+        "price": 26000
+      }
+    ]
+  },
+  "Picador": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Premier": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Previon": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Primo": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Primo Kombi": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Quadbike": {
+    "levels": [
+      {
+        "from": 0.4,
+        "to": 0.48,
+        "price": 8000
+      },
+      {
+        "from": 0.48,
+        "to": 0.56,
+        "price": 8000
+      },
+      {
+        "from": 0.56,
+        "to": 0.64,
+        "price": 8000
+      },
+      {
+        "from": 0.64,
+        "to": 0.72,
+        "price": 10000
+      }
+    ]
+  },
+  "Rancher": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Regina": {
+    "levels": [
+      {
+        "from": 3.6,
+        "to": 4.0,
+        "price": 32000
+      },
+      {
+        "from": 4.0,
+        "to": 4.4,
+        "price": 36000
+      },
+      {
+        "from": 4.4,
+        "to": 4.8,
+        "price": 42000
+      },
+      {
+        "from": 4.8,
+        "to": 5.2,
+        "price": 48000
+      }
+    ]
+  },
+  "Regina Sedan": {
+    "levels": [
+      {
+        "from": 3.6,
+        "to": 4.0,
+        "price": 32000
+      },
+      {
+        "from": 4.0,
+        "to": 4.4,
+        "price": 36000
+      },
+      {
+        "from": 4.4,
+        "to": 4.8,
+        "price": 42000
+      },
+      {
+        "from": 4.8,
+        "to": 5.2,
+        "price": 48000
+      }
+    ]
+  },
+  "Remington": {
+    "levels": [
+      {
+        "from": 2.2,
+        "to": 2.4,
+        "price": 14000
+      },
+      {
+        "from": 2.4,
+        "to": 2.6,
+        "price": 16000
+      },
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      }
+    ]
+  },
+  "Rumpo": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Sabre": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Sadler": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Sanchez": {
+    "levels": [
+      {
+        "from": 0.3,
+        "to": 0.375,
+        "price": 6000
+      },
+      {
+        "from": 0.375,
+        "to": 0.45,
+        "price": 6000
+      },
+      {
+        "from": 0.45,
+        "to": 0.525,
+        "price": 8000
+      },
+      {
+        "from": 0.525,
+        "to": 0.6,
+        "price": 8000
+      }
+    ]
+  },
+  "Sandking": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Savanna": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Schafter": {
+    "levels": [
+      {
+        "from": 2.1,
+        "to": 2.3,
+        "price": 14000
+      },
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      }
+    ]
+  },
+  "Securicar": {
+    "levels": [
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      }
+    ]
+  },
+  "Sentinel": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Sentinel Kombi": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Slamvan": {
+    "levels": [
+      {
+        "from": 4.8,
+        "to": 5.2,
+        "price": 48000
+      },
+      {
+        "from": 5.2,
+        "to": 5.6,
+        "price": 54000
+      },
+      {
+        "from": 5.6,
+        "to": 6.0,
+        "price": 58000
+      },
+      {
+        "from": 6.0,
+        "to": 6.4,
+        "price": 64000
+      }
+    ]
+  },
+  "Solair": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Speedvan": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "Stafford": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Stallion": {
+    "levels": [
+      {
+        "from": 2.2,
+        "to": 2.4,
+        "price": 14000
+      },
+      {
+        "from": 2.4,
+        "to": 2.6,
+        "price": 16000
+      },
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      }
+    ]
+  },
+  "Stallion GTT": {
+    "levels": [
+      {
+        "from": 2.2,
+        "to": 2.4,
+        "price": 14000
+      },
+      {
+        "from": 2.4,
+        "to": 2.6,
+        "price": 16000
+      },
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      }
+    ]
+  },
+  "Stanier": {
+    "levels": [
+      {
+        "from": 3.0,
+        "to": 3.4,
+        "price": 26000
+      },
+      {
+        "from": 3.4,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.2,
+        "price": 34000
+      },
+      {
+        "from": 4.2,
+        "to": 4.6,
+        "price": 40000
+      }
+    ]
+  },
+  "Stratum": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Stretch": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Sultan": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Sultan Kombi": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "Sunrise": {
+    "levels": [
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      }
+    ]
+  },
+  "Sunrise Kombi": {
+    "levels": [
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      }
+    ]
+  },
+  "Super GT": {
+    "levels": [
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      },
+      {
+        "from": 3.0,
+        "to": 3.2,
+        "price": 22000
+      },
+      {
+        "from": 3.2,
+        "to": 3.4,
+        "price": 26000
+      }
+    ]
+  },
+  "Tahoma": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Tampa": {
+    "levels": [
+      {
+        "from": 2.3,
+        "to": 2.5,
+        "price": 16000
+      },
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      }
+    ]
+  },
+  "Tornado": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Turismo": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Turismo Competizione": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Uranus": {
+    "levels": [
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      },
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      }
+    ]
+  },
+  "Vincent": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Virgo": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Voodoo": {
+    "levels": [
+      {
+        "from": 2.2,
+        "to": 2.4,
+        "price": 14000
+      },
+      {
+        "from": 2.4,
+        "to": 2.6,
+        "price": 16000
+      },
+      {
+        "from": 2.6,
+        "to": 2.8,
+        "price": 18000
+      },
+      {
+        "from": 2.8,
+        "to": 3.0,
+        "price": 20000
+      }
+    ]
+  },
+  "Walton": {
+    "levels": [
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      }
+    ]
+  },
+  "Washington": {
+    "levels": [
+      {
+        "from": 1.9,
+        "to": 2.0,
+        "price": 12000
+      },
+      {
+        "from": 2.0,
+        "to": 2.1,
+        "price": 12000
+      },
+      {
+        "from": 2.1,
+        "to": 2.2,
+        "price": 14000
+      },
+      {
+        "from": 2.2,
+        "to": 2.3,
+        "price": 14000
+      }
+    ]
+  },
+  "Wayfarer": {
+    "levels": [
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      },
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      }
+    ]
+  },
+  "Willard": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Willard Kombi": {
+    "levels": [
+      {
+        "from": 1.5,
+        "to": 1.6,
+        "price": 8000
+      },
+      {
+        "from": 1.6,
+        "to": 1.7,
+        "price": 8000
+      },
+      {
+        "from": 1.7,
+        "to": 1.8,
+        "price": 10000
+      },
+      {
+        "from": 1.8,
+        "to": 1.9,
+        "price": 10000
+      }
+    ]
+  },
+  "Windsor": {
+    "levels": [
+      {
+        "from": 3.2,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.8,
+        "price": 30000
+      },
+      {
+        "from": 3.8,
+        "to": 4.1,
+        "price": 34000
+      },
+      {
+        "from": 4.1,
+        "to": 4.4,
+        "price": 36000
+      }
+    ]
+  },
+  "Yankee": {
+    "levels": [
+      {
+        "from": 1.1,
+        "to": 1.2,
+        "price": 6000
+      },
+      {
+        "from": 1.2,
+        "to": 1.3,
+        "price": 6000
+      },
+      {
+        "from": 1.3,
+        "to": 1.4,
+        "price": 6000
+      },
+      {
+        "from": 1.4,
+        "to": 1.5,
+        "price": 8000
+      }
+    ]
+  },
+  "Yosemite": {
+    "levels": [
+      {
+        "from": 2.5,
+        "to": 2.7,
+        "price": 18000
+      },
+      {
+        "from": 2.7,
+        "to": 2.9,
+        "price": 20000
+      },
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      }
+    ]
+  },
+  "ZR-350": {
+    "levels": [
+      {
+        "from": 2.9,
+        "to": 3.1,
+        "price": 22000
+      },
+      {
+        "from": 3.1,
+        "to": 3.3,
+        "price": 24000
+      },
+      {
+        "from": 3.3,
+        "to": 3.5,
+        "price": 26000
+      },
+      {
+        "from": 3.5,
+        "to": 3.7,
+        "price": 28000
+      }
+    ]
+  },
+  "_dabox": "8f2c1a9d-dab0x-2026-protected"
+}

@@ -1,0 +1,658 @@
+{
+  "Walton": {
+    "priceMin": 3500,
+    "priceMax": 4200,
+    "engine": 1.1
+  },
+  "Manana": {
+    "priceMin": 5000,
+    "priceMax": 6000,
+    "engine": 1.7
+  },
+  "Perennial": {
+    "priceMin": 5500,
+    "priceMax": 6900,
+    "engine": 1.5
+  },
+  "Moonbeam": {
+    "priceMin": 6700,
+    "priceMax": 7500,
+    "engine": 1.2
+  },
+  "Previon": {
+    "priceMin": 9500,
+    "priceMax": 10500,
+    "engine": 1.5
+  },
+  "Picador": {
+    "priceMin": 15500,
+    "priceMax": 16000,
+    "engine": 2.5
+  },
+  "Clover": {
+    "priceMin": 17000,
+    "priceMax": 19000,
+    "engine": 2.3
+  },
+  "Clover Wagon": {
+    "priceMin": 17000,
+    "priceMax": 19000,
+    "engine": 2.3
+  },
+  "Sadler": {
+    "priceMin": 18000,
+    "priceMax": 19000,
+    "engine": 2.5
+  },
+  "Greenwood": {
+    "priceMin": 18000,
+    "priceMax": 20000,
+    "engine": 1.8
+  },
+  "Sunrise": {
+    "priceMin": 20000,
+    "priceMax": 23000,
+    "engine": 1.4
+  },
+  "Sunrise Kombi": {
+    "priceMin": 20000,
+    "priceMax": 23000,
+    "engine": 1.4
+  },
+  "Bravura": {
+    "priceMin": 21000,
+    "priceMax": 23000,
+    "engine": 1.2
+  },
+  "Tampa": {
+    "priceMin": 24000,
+    "priceMax": 25000,
+    "engine": 2.3
+  },
+  "Primo": {
+    "priceMin": 26000,
+    "priceMax": 27000,
+    "engine": 1.5
+  },
+  "Primo Kombi": {
+    "priceMin": 26000,
+    "priceMax": 27000,
+    "engine": 1.5
+  },
+  "Vincent": {
+    "priceMin": 28000,
+    "priceMax": 30000,
+    "engine": 1.5
+  },
+  "Vincent Kombi": {
+    "priceMin": 28000,
+    "priceMax": 30000,
+    "engine": 1.5
+  },
+  "Faggio": {
+    "priceMin": 28000,
+    "priceMax": 30000,
+    "engine": 0.05
+  },
+  "Cadrona": {
+    "priceMin": 30000,
+    "priceMax": 33000,
+    "engine": 1.8
+  },
+  "Emperor": {
+    "priceMin": 30000,
+    "priceMax": 32000,
+    "engine": 1.9
+  },
+  "Bobcat": {
+    "priceMin": 33000,
+    "priceMax": 34000,
+    "engine": 1.8
+  },
+  "Buccaneer": {
+    "priceMin": 33000,
+    "priceMax": 35000,
+    "engine": 2.3
+  },
+  "Majestic": {
+    "priceMin": 34000,
+    "priceMax": 35000,
+    "engine": 2.1
+  },
+  "Glendale": {
+    "priceMin": 35000,
+    "priceMax": 38000,
+    "engine": 2.1
+  },
+  "Regina": {
+    "priceMin": 37000,
+    "priceMax": 39000,
+    "engine": 1.3
+  },
+  "Elegant": {
+    "priceMin": 38000,
+    "priceMax": 41000,
+    "engine": 1.8
+  },
+  "Fortune": {
+    "priceMin": 38000,
+    "priceMax": 40000,
+    "engine": 1.8
+  },
+  "Nebula": {
+    "priceMin": 38000,
+    "priceMax": 41000,
+    "engine": 1.8
+  },
+  "Nebula Kombi": {
+    "priceMin": 38000,
+    "priceMax": 41000,
+    "engine": 1.8
+  },
+  "Solair": {
+    "priceMin": 39000,
+    "priceMax": 40000,
+    "engine": 1.8
+  },
+  "Benson": {
+    "priceMin": 40000,
+    "priceMax": 43000,
+    "engine": 1.1
+  },
+  "Virgo": {
+    "priceMin": 41000,
+    "priceMax": 42000,
+    "engine": 1.5
+  },
+  "Admiral Kombi": {
+    "priceMin": 42000,
+    "priceMax": 43000,
+    "engine": 2.1
+  },
+  "Willard": {
+    "priceMin": 44000,
+    "priceMax": 46000,
+    "engine": 1.5
+  },
+  "Willard Kombi": {
+    "priceMin": 44000,
+    "priceMax": 46000,
+    "engine": 1.5
+  },
+  "Mesa": {
+    "priceMin": 45000,
+    "priceMax": 47000,
+    "engine": 2.3
+  },
+  "Admiral": {
+    "priceMin": 46000,
+    "priceMax": 47000,
+    "engine": 2.1
+  },
+  "Washington": {
+    "priceMin": 47000,
+    "priceMax": 49000,
+    "engine": 1.9
+  },
+  "Wayfarer": {
+    "priceMin": 52000,
+    "priceMax": 55000,
+    "engine": 1.4
+  },
+  "Boxville": {
+    "priceMin": 52000,
+    "priceMax": 55000,
+    "engine": 1.1
+  },
+  "Stratum": {
+    "priceMin": 55000,
+    "priceMax": 56000,
+    "engine": 1.8
+  },
+  "Rancher": {
+    "priceMin": 55000,
+    "priceMax": 57000,
+    "engine": 1.8
+  },
+  "Burrito": {
+    "priceMin": 55000,
+    "priceMax": 60000,
+    "engine": 2.5
+  },
+  "Landstalker": {
+    "priceMin": 56000,
+    "priceMax": 58000,
+    "engine": 2.5
+  },
+  "Sabre": {
+    "priceMin": 58000,
+    "priceMax": 60000,
+    "engine": 2.3
+  },
+  "Tahoma": {
+    "priceMin": 60000,
+    "priceMax": 62000,
+    "engine": 2.3
+  },
+  "Sanchez": {
+    "priceMin": 60000,
+    "priceMax": 62000,
+    "engine": 0.3
+  },
+  "Tornado": {
+    "priceMin": 60000,
+    "priceMax": 65000,
+    "engine": 1.8
+  },
+  "Premier": {
+    "priceMin": 63000,
+    "priceMax": 65000,
+    "engine": 2.1
+  },
+  "Euros": {
+    "priceMin": 65000,
+    "priceMax": 68000,
+    "engine": 2.3
+  },
+  "Sentinel": {
+    "priceMin": 65000,
+    "priceMax": 68000,
+    "engine": 2.3
+  },
+  "Sentinel Kombi": {
+    "priceMin": 65000,
+    "priceMax": 68000,
+    "engine": 2.3
+  },
+  "Mesa Rubicon": {
+    "priceMin": 65000,
+    "priceMax": 67000,
+    "engine": 2.3
+  },
+  "Journey": {
+    "priceMin": 70000,
+    "priceMax": 75000,
+    "engine": 1.1
+  },
+  "Merit": {
+    "priceMin": 70000,
+    "priceMax": 72000,
+    "engine": 2.1
+  },
+  "Uranus": {
+    "priceMin": 70000,
+    "priceMax": 75000,
+    "engine": 1.8
+  },
+  "Contander": {
+    "priceMin": 70000,
+    "priceMax": 72000,
+    "engine": 2.5
+  },
+  "Quadbike": {
+    "priceMin": 70000,
+    "priceMax": 73000,
+    "engine": 0.4
+  },
+  "Dinghy": {
+    "priceMin": 72000,
+    "priceMax": 76000,
+    "engine": 0
+  },
+  "Stallion": {
+    "priceMin": 75000,
+    "priceMax": 77000,
+    "engine": 2.2
+  },
+  "Blista Compact": {
+    "priceMin": 76000,
+    "priceMax": 78000,
+    "engine": 2.6
+  },
+  "Club": {
+    "priceMin": 76000,
+    "priceMax": 78000,
+    "engine": 3.2
+  },
+  "BF Injection": {
+    "priceMin": 78000,
+    "priceMax": 80000,
+    "engine": 3.2
+  },
+  "Yosemite": {
+    "priceMin": 85000,
+    "priceMax": 90000,
+    "engine": 2.5
+  },
+  "Manana DTM": {
+    "priceMin": 88000,
+    "priceMax": 90000,
+    "engine": 1.7
+  },
+  "Stallion GTT": {
+    "priceMin": 93000,
+    "priceMax": 98000,
+    "engine": 2.2
+  },
+  "Feltzer": {
+    "priceMin": 100000,
+    "priceMax": 102000,
+    "engine": 2.9
+  },
+  "Freeway": {
+    "priceMin": 100000,
+    "priceMax": 105000,
+    "engine": 1.0
+  },
+  "Mule": {
+    "priceMin": 100000,
+    "priceMax": 103000,
+    "engine": 1.5
+  },
+  "Fortune 240SX": {
+    "priceMin": 110000,
+    "priceMax": 112000,
+    "engine": 1.8
+  },
+  "Alpha": {
+    "priceMin": 110000,
+    "priceMax": 113000,
+    "engine": 2.2
+  },
+  "BF-400": {
+    "priceMin": 115000,
+    "priceMax": 120000,
+    "engine": 0.4
+  },
+  "Flash": {
+    "priceMin": 118000,
+    "priceMax": 122000,
+    "engine": 2.3
+  },
+  "Stanier": {
+    "priceMin": 120000,
+    "priceMax": 125000,
+    "engine": 3.0
+  },
+  "Windsor": {
+    "priceMin": 120000,
+    "priceMax": 123000,
+    "engine": 3.2
+  },
+  "Phoenix": {
+    "priceMin": 120000,
+    "priceMax": 123000,
+    "engine": 2.6
+  },
+  "Speedvan": {
+    "priceMin": 120000,
+    "priceMax": 125000,
+    "engine": 2.5
+  },
+  "Schafter": {
+    "priceMin": 125000,
+    "priceMax": 130000,
+    "engine": 2.1
+  },
+  "PCJ-600": {
+    "priceMin": 125000,
+    "priceMax": 128000,
+    "engine": 0.5
+  },
+  "Huntley": {
+    "priceMin": 132500,
+    "priceMax": 137500,
+    "engine": 2.5
+  },
+  "Celsion": {
+    "priceMin": 140000,
+    "priceMax": 145000,
+    "engine": 2.4
+  },
+  "Camper": {
+    "priceMin": 140000,
+    "priceMax": 150000,
+    "engine": 1.3
+  },
+  "Voodoo": {
+    "priceMin": 150000,
+    "priceMax": 160000,
+    "engine": 2.2
+  },
+  "Remington": {
+    "priceMin": 170000,
+    "priceMax": 180000,
+    "engine": 2.2
+  },
+  "Yankee": {
+    "priceMin": 178000,
+    "priceMax": 181000,
+    "engine": 1.1
+  },
+  "Jester": {
+    "priceMin": 180000,
+    "priceMax": 183000,
+    "engine": 2.9
+  },
+  "Slamvan": {
+    "priceMin": 180000,
+    "priceMax": 190000,
+    "engine": 4.8
+  },
+  "Super GT": {
+    "priceMin": 185000,
+    "priceMax": 195000,
+    "engine": 2.6
+  },
+  "FCR-900": {
+    "priceMin": 185000,
+    "priceMax": 190000,
+    "engine": 0.8
+  },
+  "Broadway": {
+    "priceMin": 185000,
+    "priceMax": 190000,
+    "engine": 1.8
+  },
+  "Blade": {
+    "priceMin": 200000,
+    "priceMax": 210000,
+    "engine": 2.3
+  },
+  "Savanna": {
+    "priceMin": 220000,
+    "priceMax": 225000,
+    "engine": 2.3
+  },
+  "Sandking": {
+    "priceMin": 240000,
+    "priceMax": 245000,
+    "engine": 2.9
+  },
+  "Buffalo": {
+    "priceMin": 260000,
+    "priceMax": 280000,
+    "engine": 2.9
+  },
+  "Feltzer GT": {
+    "priceMin": 270000,
+    "priceMax": 280000,
+    "engine": 2.9
+  },
+  "Elegy": {
+    "priceMin": 270000,
+    "priceMax": 275000,
+    "engine": 2.9
+  },
+  "Securicar": {
+    "priceMin": 270000,
+    "priceMax": 275000,
+    "engine": 1.2
+  },
+  "ZR-350": {
+    "priceMin": 280000,
+    "priceMax": 283000,
+    "engine": 2.9
+  },
+  "Sultan": {
+    "priceMin": 350000,
+    "priceMax": 363000,
+    "engine": 2.9
+  },
+  "Sultan Kombi": {
+    "priceMin": 350000,
+    "priceMax": 363000,
+    "engine": 2.9
+  },
+  "Hermes": {
+    "priceMin": 350000,
+    "priceMax": 365000,
+    "engine": 1.5
+  },
+  "Comet": {
+    "priceMin": 370000,
+    "priceMax": 380000,
+    "engine": 3.2
+  },
+  "Cheetah": {
+    "priceMin": 550000,
+    "priceMax": 560000,
+    "engine": 3.2
+  },
+  "Speeder": {
+    "priceMin": 550000,
+    "priceMax": 555000,
+    "engine": 0
+  },
+  "Banshee": {
+    "priceMin": 560000,
+    "priceMax": 563000,
+    "engine": 3.7
+  },
+  "PCJ-600 XR": {
+    "priceMin": 600000,
+    "priceMax": 610000,
+    "engine": 0.5
+  },
+  "Squalo": {
+    "priceMin": 600000,
+    "priceMax": 610000,
+    "engine": 0
+  },
+  "Cheetah '76": {
+    "priceMin": 730000,
+    "priceMax": 735000,
+    "engine": 2.9
+  },
+  "Bullet": {
+    "priceMin": 740000,
+    "priceMax": 745000,
+    "engine": 3.2
+  },
+  "Patriot": {
+    "priceMin": 750000,
+    "priceMax": 770000,
+    "engine": 2.5
+  },
+  "Jetmax": {
+    "priceMin": 750000,
+    "priceMax": 756000,
+    "engine": 0
+  },
+  "Monroe": {
+    "priceMin": 780000,
+    "priceMax": 782000,
+    "engine": 3.0
+  },
+  "Banshee Viper GTS": {
+    "priceMin": 830000,
+    "priceMax": 850000,
+    "engine": 3.7
+  },
+  "FCR-900 RR": {
+    "priceMin": 850000,
+    "priceMax": 860000,
+    "engine": 0.8
+  },
+  "Feroci": {
+    "priceMin": 970000,
+    "priceMax": 975000,
+    "engine": 3.0
+  },
+  "DeLuxo": {
+    "priceMin": 1000000,
+    "priceMax": 1010000,
+    "engine": 2.8
+  },
+  "NRG-500": {
+    "priceMin": 1020000,
+    "priceMax": 1050000,
+    "engine": 1.0
+  },
+  "Tropic": {
+    "priceMin": 1050000,
+    "priceMax": 1060000,
+    "engine": 0
+  },
+  "Bullet GT": {
+    "priceMin": 1100000,
+    "priceMax": 1120000,
+    "engine": 3.2
+  },
+  "Marquis": {
+    "priceMin": 1100000,
+    "priceMax": 1105000,
+    "engine": 0
+  },
+  "Launch": {
+    "priceMin": 1200000,
+    "priceMax": 1210000,
+    "engine": 0
+  },
+  "Rancher Long": {
+    "priceMin": 1340000,
+    "priceMax": 1350000,
+    "engine": 2.1
+  },
+  "Turismo": {
+    "priceMin": 1620000,
+    "priceMax": 1650000,
+    "engine": 3.2
+  },
+  "Infernus": {
+    "priceMin": 1700000,
+    "priceMax": 1705000,
+    "engine": 3.2
+  },
+  "Infernus NSX": {
+    "priceMin": 1970000,
+    "priceMax": 2020000,
+    "engine": 3.2
+  },
+  "News Chopper": {
+    "priceMin": 2000000,
+    "priceMax": 2200000,
+    "engine": 5.9
+  },
+  "Turismo Competizione": {
+    "priceMin": 2100000,
+    "priceMax": 2150000,
+    "engine": 3.2
+  },
+  "Infernus Kakimoto": {
+    "priceMin": 2270000,
+    "priceMax": 2300000,
+    "engine": 3.2
+  },
+  "Infernus Pandem": {
+    "priceMin": 2500000,
+    "priceMax": 2550000,
+    "engine": 3.2
+  },
+  "Maverick": {
+    "priceMin": 2800000,
+    "priceMax": 3000000,
+    "engine": 5.9
+  },
+  "_dabox": "8f2c1a9d-dab0x-2026-protected"
+}
